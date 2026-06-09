@@ -9,4 +9,8 @@ class Threading:
         threading.Thread(target=self.func, args=args, kwargs=kwargs).start()
 
 if __name__ == "__main__":
-    subprocess.Popen(sys.argv[1:])
+    try:
+        subprocess.Popen(sys.argv[1:])
+    
+    except IndexError:
+        pass
