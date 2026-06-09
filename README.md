@@ -1,3 +1,3 @@
-﻿# TheSilent is a WIP Minecraft Server written in Python!
+﻿# TheSilent is a WIP alternative to the screen command!
 
 # work in progress, will update pypi package when done :)
